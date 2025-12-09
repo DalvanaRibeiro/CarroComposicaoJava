@@ -15,10 +15,7 @@ public class Motor {
     
 /////////////////////////DEPOIS DE CARRO /////////////////////////////////////////////////////////////
     final Carro carro;
-    // Referência para o Carro ao qual este Motor pertence.
-    // 'final' significa que, depois que for atribuída no construtor,
-    // essa variável não pode apontar para outro Carro.
-    // Ou seja, este motor sempre será deste carro → composição forte.
+
 /////////////////////////DEPOIS DE CARRO /////////////////////////////////////////////////////////////
     boolean ligado = false;
     // Indica se o motor está ligado ou desligado.
